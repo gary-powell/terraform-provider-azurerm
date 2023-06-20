@@ -49,7 +49,7 @@ In addition to the Arguments listed above - the following Attributes are exporte
 
 * `public_network_access_enabled` - Is public network access enabled?
 
-* `sku_name` - The SKU Name for the PostgreSQL Flexible Server. The name of the SKU, follows the `tier` + `name` pattern (e.g. `B_Standard_B1ms`, `GP_Standard_D2s_v3`, `MO_Standard_E4s_v3`).
+* `sku_name` - The SKU Name for the PostgreSQL Flexible Server. The name of the SKU, follows the `tier` + `name` pattern (e.g. `Standard_B1ms`, `Standard_D2s_v3`, `Standard_E4s_v3`).
 
 * `storage_mb` - The max storage allowed for the PostgreSQL Flexible Server.
 

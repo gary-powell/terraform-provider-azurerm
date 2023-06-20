@@ -843,7 +843,7 @@ resource "azurerm_postgresql_flexible_server" "test" {
   administrator_password = "QAZwsx123"
   storage_mb             = 32768
   version                = "12"
-  sku_name               = "B_Standard_B1ms"
+  sku_name               = "Standard_B1ms"
   zone                   = "1"
 
   identity {
